@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
 	int x;
+	cout << "input n: ";
 	cin >> x;
 	int sum = 0;
 	int i = 0;
@@ -9,5 +10,5 @@ int main(){
 		sum += i;
 		i++;
 	}
-	cout << sum << endl;
+	cout << "sum: " << sum << endl;
 }

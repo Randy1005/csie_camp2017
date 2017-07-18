@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-	char initial[5];
-	int grade[5];
-	float weight[5];
-	float height[5];
-	for(int i=0;i<5;i++){
+	char initial[3];
+	int grade[3];
+	float weight[3];
+	float height[3];
+	for(int i=0;i<3;i++){
 		cout << "student " << i << endl;		
 		cout << "initial?? " << endl;
 		cin >> initial[i];
@@ -16,5 +16,28 @@ int main(){
 		cout << "height?? " << endl;
 		cin >> height[i];
 	}
+
+	cout << "initial: ";
+	for(int i=0;i<3;i++){
+		cout << initial[i] << " ";
+	}
+	cout << endl;
 	
+	cout << "grade: ";
+	for(int i=0;i<3;i++){
+		cout << grade[i] << " ";
+	}
+	cout << endl;
+
+	cout << "weight: ";
+	for(int i=0;i<3;i++){
+		cout << weight[i] << " ";
+	}
+	cout << endl;
+
+	cout << "height: ";
+	for(int i=0;i<3;i++){
+		cout << height[i] << " ";
+	}
+	cout << endl;
 }

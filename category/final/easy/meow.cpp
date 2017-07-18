@@ -1,8 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-	char input[10];
-	cout << "enter his line: ";
-	cin >> input;
-	cout << input << " " << "meow" << endl;
+	int times;
+	cout << "meow times?? ";
+	cin >> times;
+	cout << "she said: " << endl;
+	for(int i=0;i<times;i++){
+		cout << "meow" << endl;
+	}
 }

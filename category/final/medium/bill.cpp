@@ -7,6 +7,7 @@ int main(){
 	cout << "please enter the number of food items: ";
 	cin >> n;
 	int food[n];
+	cout << "please input food weight:";
 	for(int i=0;i<n;i++){
 		cin >> food[i];
 	}
@@ -18,6 +19,6 @@ int main(){
 		total += food[i];
 	}
 
-	cout << "total add up weight = " << total << endl;
+	cout << "total weight of index " << start << " to " << end << " is "<< total << endl;
 
 }
